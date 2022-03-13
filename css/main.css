@@ -1,0 +1,144 @@
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: skyblue;
+    color: yellow;
+    height: 30px;
+    vertical-align: bottom;
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style-type: none;
+    background-color: white;
+    color: green;
+    height: 60px;
+    vertical-align: bottom;
+    width: 800px;
+}
+.center{
+    text-align: center;
+}
+.nav3{
+    list-style-type: none;
+    background-color: white;
+    color: green;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+}
+#anchor1{
+    text-decoration: none;
+    color: blue;
+    font-size: 1.0em;
+}
+#anchor1:hover{
+    background-color: red;
+}
+.navs{
+    background-color: ivory;
+}
+body{
+    background-color: cornsilk;
+}
+@media screen and (min-width:700px) {
+    #mobile, .nav3{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    #desktop{
+        display: none;
+    }
+    .nav1{
+        height: 40px;
+    }
+    #menu{
+        background-color: blue;
+        cursor: pointer;
+        height: 45px;
+    }
+    .bars{
+        width: 35px;
+        height: 5px;
+        background-color: white;
+        margin: 8px 5px;
+    }
+#close{
+    font-size: 1.6em;
+    text-align: right;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+}
+
+.flexBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.data{
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    color: green;
+}
+.login{
+    background-color: rgba(0,0,0,0.8);
+    width: 300px;
+    color: white;
+}
+.btn{
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bolder;
+}
+.login input{
+    border: none;
+    height: 40px;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+}
+.rbtn{
+    background-color: red;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bolder;
+}
+.reg{
+    background-color: green;
+    width: 600px;
+    color: yellow;
+
+}
+#errors{
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 100%;
+}
+table, th, tr, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+#tb{
+    overflow-x: auto;
+}

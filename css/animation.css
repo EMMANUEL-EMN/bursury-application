@@ -1,0 +1,22 @@
+#animation{
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: animate 10s ease-in-out 1s infinite alternate forwards;
+}
+@keyframes animate{
+    0%{
+        background-image: url(../siteimg/ij.jpeg);
+    }
+    25%{
+        background-image: url(../siteimg/im.jpeg);
+    }
+    50%{
+        background-image: url(../siteimg/index.png);
+    }
+    75%{
+        background-image: url(../siteimg/w3.jpeg);
+    }
+    100%{
+        background-image: url(../siteimg/mh.jpeg);
+    }
+}

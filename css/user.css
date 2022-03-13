@@ -1,0 +1,43 @@
+.application{
+    width: 700px;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: white;
+}
+.abtn{
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+#anchor{
+    text-decoration: none;
+    color: blue;
+}
+.comment{
+    background-color: seashell;
+    width: 400px;
+}
+.labels{
+    text-align: left;
+}
+.content{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+#uimg{
+    height: 300px;
+    width: 300px;
+}
